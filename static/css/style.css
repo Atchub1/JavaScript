@@ -117,7 +117,7 @@ select {
   animation-delay: 1.2s;
 }
 
-/* input placeholder color changes */
+/* Input placeholder color changes */
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #8e979f;
@@ -138,7 +138,7 @@ select {
   color: #8e979f;
 }
 
-/* media queries which will only be activated at specific screen sizes */
+/* Media queries which will only be activated at specific screen sizes */
 @media (max-width: 800px) {
   #table-area td {
     font-size: 1em;
@@ -191,7 +191,7 @@ select {
   }
 }
 
-/* keyframe animations which will be used to animate the title */
+/* Keyframe animations which will be used to animate the title */
 @keyframes title {
   from {
     opacity: 0;

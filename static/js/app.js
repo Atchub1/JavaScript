@@ -1,8 +1,8 @@
-// import table data from data.js
+// Import table data from data.js
 let tableData = data;
 
-// upload table data to the html page
-data.forEach((sighting) =>{
+// Upload table data to the html page
+tableData.forEach((sighting) =>{
     let row = d3.select('#ufo-table>tbody').append('tr')
     Object.entries(sighting).forEach(([key,value]) =>{
         let cell = row.append('td');
@@ -11,7 +11,7 @@ data.forEach((sighting) =>{
 });
 
 
-//filter data based on user date
+//Filter data based on user date
 let filter = d3.select('#filter-btn');
 filter.on("click", function() {
     d3.selectAll('#ufo-table>tbody>tr').remove();
