@@ -1,3 +1,5 @@
+![UFO Picture](https://github.com/Atchub1/JavaScript/blob/master/static/images/UFOSightings.JPG)
+
 # JavaScript and DOM Manipulation
 
 * Created a basic HTML web page for UFO sightings 
